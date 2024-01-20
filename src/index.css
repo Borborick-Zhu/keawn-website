@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+  transform-origin: center center;
+}
+
+.icon-scroll {
+  width: 20px; /* Adjusted width */
+  height: 35px; /* Adjusted height */
+  margin-left: -10px;
+  top: 55%;
+  margin-top: -17.5px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 12.5px; /* Adjusted border radius */
+  transform: scale(0.8); /* Adjusted scale factor */
+}
+
+.icon-scroll:before {
+  content: '';
+  width: 4px; /* Adjusted width */
+  height: 4px; /* Adjusted height */
+  background: #fff;
+  margin-left: -2px;
+  top: 4px;
+  border-radius: 2px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(23px); /* Adjusted translateY value */
+  }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid purple; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: purple; }
+}
