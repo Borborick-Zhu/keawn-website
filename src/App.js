@@ -2,6 +2,11 @@ import './App.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { GiRaceCar, GiCircle } from "react-icons/gi";
+import { SocialIcon } from 'react-social-icons/component'
+import 'react-social-icons/instagram';
+import 'react-social-icons/youtube';
+import 'react-social-icons/tiktok';
+import 'react-social-icons/twitch';
 
 function App() {
   return (
@@ -72,7 +77,7 @@ function App() {
             <h3 className="vertical-timeline-element-title" style={{fontSize: 30, paddingBottom: 10}}>2015</h3>
             <h4 className="vertical-timeline-element-subtitle">5th LAKC Championship PRD2</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.47.15 am.png')}
+            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-22 at 9.15.55 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -85,7 +90,7 @@ function App() {
             <h3 className="vertical-timeline-element-title" style={{fontSize: 30, paddingBottom: 10}}>2016</h3>
             <h4 className="vertical-timeline-element-subtitle">4th LAKC Championship x30 Juniors</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.49.40 am.png')}
+            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.47.15 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -98,6 +103,9 @@ function App() {
             <h3 className="vertical-timeline-element-title" style={{fontSize: 30, paddingBottom: 10}}>2017</h3>
             <h4 className="vertical-timeline-element-subtitle">1st LAKC Championship S3 Shifter</h4>
             <h4 className="vertical-timeline-element-subtitle">2nd SKUSA Prokart Challenge Championship S3 Shifter</h4>
+            <img 
+            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.49.40 am.png')}
+            style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -211,7 +219,18 @@ function App() {
               src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/04_copia.jpg')}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       </div>
-      
+
+      <div style={{backgroundColor: 'black', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+        <h1 style={{color: '#8f00ff', fontSize: 70, paddingTop: 60, paddingBottom: 60}}>FOLLOW ME</h1>
+        <div style={{display: 'flex', flexDirection: 'row', paddingBottom: 70}}>
+          <SocialIcon style={{marginLeft: 15, marginRight: 15}} bgColor="purple" url="https://www.instagram.com/keawnracing?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"/>
+          <SocialIcon style={{marginLeft: 15, marginRight: 15}} bgColor="purple" url="https://youtube.com/@keawnracing?si=IR4K16Onlpv63H3_" />
+          <SocialIcon style={{marginLeft: 15, marginRight: 15}} bgColor="purple" url="https://www.tiktok.com/@keawnracing?_t=8jFdGjRadw6&_r=1" />
+          <SocialIcon style={{marginLeft: 15, marginRight: 15}} bgColor="purple" url="https://m.twitch.tv/keawnracing"/>
+        </div>
+        
+
+      </div>
       
     </div>
   );
