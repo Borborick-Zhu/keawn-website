@@ -22,7 +22,7 @@ function App() {
           </div>
 
           <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/image1.jpg')}
+            src={require('./images/image1.jpg')}
             style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
       </header>
@@ -31,7 +31,7 @@ function App() {
         <div className='personalInfoBox' style={{ position: 'absolute', flex: 1, flexDirection: 'column', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', maxWidth: 1000}}>
           <div>
             <img 
-              src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/IMG_3328.HEIC')} 
+              src={require('./images/IMG_3328.HEIC')} 
               style={{width: 400, height: 400,}}/>
             </div>
           <div>
@@ -56,7 +56,7 @@ function App() {
           </div>
         </div>
       <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/04_copia.jpg')}
+            src={require('./images/04_copia.jpg')}
             style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       </div>
 
@@ -77,7 +77,7 @@ function App() {
             <h3 className="vertical-timeline-element-title" style={{fontSize: 30, paddingBottom: 10}}>2015</h3>
             <h4 className="vertical-timeline-element-subtitle">5th LAKC Championship PRD2</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-22 at 9.15.55 am.png')}
+            src={require('./images/Screenshot 2024-01-22 at 9.15.55 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -90,7 +90,7 @@ function App() {
             <h3 className="vertical-timeline-element-title" style={{fontSize: 30, paddingBottom: 10}}>2016</h3>
             <h4 className="vertical-timeline-element-subtitle">4th LAKC Championship x30 Juniors</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.47.15 am.png')}
+            src={require('./images/Screenshot 2024-01-21 at 9.47.15 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -104,7 +104,7 @@ function App() {
             <h4 className="vertical-timeline-element-subtitle">1st LAKC Championship S3 Shifter</h4>
             <h4 className="vertical-timeline-element-subtitle">2nd SKUSA Prokart Challenge Championship S3 Shifter</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.49.40 am.png')}
+            src={require('./images/Screenshot 2024-01-21 at 9.49.40 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -119,7 +119,7 @@ function App() {
             <h4 className="vertical-timeline-element-subtitle">1st SKUSA ProKart Challenge Championship S2 Shifter Pro</h4>
             <h4 className="vertical-timeline-element-subtitle">4th SKUSA ProTour Championship S2 Shifter Pro </h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 10.00.16 am.png')}
+            src={require('./images/Screenshot 2024-01-21 at 10.00.16 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -133,7 +133,7 @@ function App() {
             <h4 className="vertical-timeline-element-subtitle">1st Rok Cup Shifter Championship</h4>
             <h4 className="vertical-timeline-element-subtitle">3rd SKUSA Pro Tour Championship</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.59.13 am.png')}
+            src={require('./images/Screenshot 2024-01-21 at 9.59.13 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -146,7 +146,7 @@ function App() {
             <h3 className="vertical-timeline-element-title" style={{fontSize: 30, paddingBottom: 10}}>2020</h3>
             <h4 className="vertical-timeline-element-subtitle">3rd Rok Cup Shifter Championship</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.50.15 am.png')}
+            src={require('./images/Screenshot 2024-01-21 at 9.50.15 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -159,7 +159,7 @@ function App() {
             <h3 className="vertical-timeline-element-title" style={{fontSize: 30, paddingBottom: 10}}>2021</h3>
             <h4 className="vertical-timeline-element-subtitle">2nd Rok Cup Shifter Championship</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-20 at 1.10.00 pm.png')}
+            src={require('./images/Screenshot 2024-01-20 at 1.10.00 pm.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -175,7 +175,7 @@ function App() {
             <h4 className="vertical-timeline-element-subtitle">Top 10 Supernats KZ Shifter</h4>
             <h4 className="vertical-timeline-element-subtitle">2nd Rok Cup Shifter Championship</h4>
             <img 
-            src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-21 at 9.56.41 am.png')}
+            src={require('./images/Screenshot 2024-01-21 at 9.56.41 am.png')}
             style={{maxWidth: 400, paddingTop: 10}}/>
           </VerticalTimelineElement>
 
@@ -189,7 +189,7 @@ function App() {
         </VerticalTimeline>
       </div>
       <div>
-        <img src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Screenshot 2024-01-20 at 1.33.57 pm.png')} 
+        <img src={require('./images/Screenshot 2024-01-20 at 1.33.57 pm.png')} 
             style={{ width: '100%', height: '60%', objectFit: 'fit' }}/>
       </div>
       
@@ -200,23 +200,23 @@ function App() {
               <h1 style={{fontSize: 70, padding: 0, margin: 1, color: '#b59326'}}>TEAM</h1>
               <h2 style={{fontSize: 30, padding: 0, margin: 10}}>SINCE 2022</h2>
               <img 
-                src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/pngimg.com - lamborghini_PNG10709.png')}
+                src={require('./images/pngimg.com - lamborghini_PNG10709.png')}
                 style={{height: 200}}/>
               <img 
-              src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/output-onlinepngtools.png')}
+              src={require('./images/output-onlinepngtools.png')}
               style={{width: 250, paddingTop: 20}}/>
               <h2 style={{fontSize: 30, padding: 0, margin: 10, color: '#b59326'}} >2023 PRO-AM SUPER-TROFEO CHAMPION</h2>
 
             </div>
             
             <img 
-                src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/Image.heic')}
+                src={require('./images/Image.heic')}
                 style={{height: 700}}/>
           </div>
           
         </div>
         <img 
-              src={require('/Users/borborickzhu/Desktop/Videos/keawn-website/src/images/04_copia.jpg')}
+              src={require('./images/04_copia.jpg')}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       </div>
 
